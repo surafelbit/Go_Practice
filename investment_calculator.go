@@ -31,8 +31,8 @@ var num1, num2, num3 float64= valueGetter()
 
 // fmt.Println("this is the thing dawg")
  columbia, wow:=featureValues(num1,num2,num3)
-fmt.Println("This is your earning after tax: ",columbia)
-fmt.Println("This is your ration: ",wow)
+fmt.Printf("This is your earning after tax:%.1f\n", columbia)
+fmt.Printf("This is your ration:%.1f ",wow)
 
 }
 
