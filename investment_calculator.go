@@ -6,8 +6,33 @@ func main(){
 // var revenue float64
 // var expenses float64
 // var tax_rate float64
-
-
+var accountBalance float64 = 1000
+fmt.Println("Welcome to Go bank")
+fmt.Println("Enter Your Choice Number: ")
+fmt.Println("Press 1 to check balance: ")
+fmt.Println("Press 2 to deposit to bank: ")
+fmt.Println("Press 3 to withdraw balance: ")
+fmt.Println("Press 4 to exit: ")
+var Choice int 
+fmt.Print("Enter Your Choice: ")
+fmt.Scan(&Choice)
+if Choice == 1 {
+  fmt.Print("Your Balance Is: ", accountBalance)
+} else if (Choice==2){
+  var deposit float64
+  fmt.Print("How much do you want to deposit: ")
+  fmt.Scan(&deposit)
+  accountBalance = accountBalance + deposit
+  fmt.Print("Your New Balance is ", accountBalance)
+} else if (Choice==3){
+  var withdraw float64
+  fmt.Print("How much do you want to deposit: ")
+  fmt.Scan(&withdraw)
+  accountBalance = accountBalance - withdraw
+  fmt.Print("Your New Balance is ", accountBalance)
+} else{
+  fmt.Print("Goodbye")
+}
 // fmt.Print("Enter Your Revenue: ")
 // fmt.Scan(&revenue)
 
