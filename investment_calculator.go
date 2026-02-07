@@ -81,4 +81,3 @@ func valueGetter()(float64,float64, float64){
   fmt.Scan(&num3)
 return num1, num2, num3
 }
-//
