@@ -47,7 +47,7 @@ if Choice == 1 {
 var num1, num2, num3 float64= valueGetter()
 
  columbia, wow:=featureValues(num1,num2,num3)
-fmt.Printf("This is your earning after tax:%.1f\n", columbia)//////
+fmt.Printf("This is your earning after tax:%.1f\n", columbia)////////
 
 fmt.Printf("This is your ration:%.1f ",wow)
 
